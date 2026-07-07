@@ -12,7 +12,7 @@ while(True):
                     deposit()
                 except DepositError:
                     print("\tdont enter -ve and zero values --try again")
-                except ValueError():
+                except ValueError:
                     print("\tDOnt enter the str,symbols,alnums")
             case 2:
                 try:
